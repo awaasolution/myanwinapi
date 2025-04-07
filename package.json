@@ -1,0 +1,41 @@
+{
+  "name": "myanwinapi",
+  "version": "1.0.0",
+  "description": "api for myanwin app ",
+  "keywords": [
+    "2d",
+    "3d",
+    "lottery",
+    "thai",
+    "and",
+    "slot",
+    "games"
+  ],
+  "homepage": "https://github.com/awaasolution/myanwinapi#readme",
+  "bugs": {
+    "url": "https://github.com/awaasolution/myanwinapi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/awaasolution/myanwinapi.git"
+  },
+  "license": "ISC",
+  "author": "awaasolution",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
